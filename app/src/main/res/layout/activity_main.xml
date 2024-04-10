@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    
+    
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log in"
+            android:textSize="32sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hi! Welcome"
+            android:textColor="#C4C4C4"
+            android:textSize="32sp"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="80dp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        >
+
+        <TextView
+            android:layout_marginLeft="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Emaild Address"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:paddingTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Email"/>
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        >
+
+        <TextView
+            android:layout_marginLeft="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:paddingTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your password"
+            />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/eyes_icon"
+            android:layout_gravity="end"
+            android:layout_marginTop="23dp"
+            android:layout_marginRight="4dp"
+            />
+    </FrameLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:layout_width="327dp"
+        android:layout_height="60dp"
+        android:text="Log in"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:backgroundTint="#41C485"
+        />
+
+    <TextView
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Fogrot to password ?"
+        android:textStyle="bold"
+        android:textSize="15sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="or sign with in"
+            android:background="@color/white"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textStyle="bold"
+            android:textColor="#C4C4C4"
+            />
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+
+    <LinearLayout
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <FrameLayout
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:background="@drawable/elipse"
+            android:layout_marginRight="20dp"
+            >
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                android:src="@drawable/apple"
+                />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:background="@drawable/elipse"
+            >
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                android:src="@drawable/google"
+                />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_marginLeft="20dp"
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:background="@drawable/elipse"
+            >
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="91dp"
+                android:layout_height="91dp"
+                android:src="@drawable/facebook"
+                />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Don't have an account?"
+        android:textColor="#C4C4C4"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create an account"
+        android:textColor="#41C485"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"/>
+
+    
+
+</LinearLayout>

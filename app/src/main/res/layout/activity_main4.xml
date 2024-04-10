@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity3">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:layout_width="28dp"
+            android:layout_height="20dp"
+            android:src="@drawable/back"
+            />
+
+        <TextView
+            android:paddingLeft="120dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign up"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create password"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="26sp"
+        android:textColor="#C4C4C4"
+        android:layout_marginLeft="30dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:text="Show password"
+        android:textStyle="bold"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2 of 3"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:paddingRight="40dp"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/passwor_proces"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:layout_width="327dp"
+        android:layout_height="60dp"
+        android:text="Next"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:backgroundTint="#41C485"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:gravity="center_horizontal"
+       >
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="11sp"
+           android:textStyle="bold"
+           android:text="By signing up, you agree to our "
+           android:textColor="#C4C4C4"
+           />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="11sp"
+           android:textStyle="bold"
+           android:text="Terms of Service"
+           android:textColor="@color/black"
+           />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="11sp"
+           android:textStyle="bold"
+           android:text=" and "
+           android:textColor="#C4C4C4"
+           />
+   </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:text="Privacy Policy"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <LinearLayout
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <FrameLayout
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:background="@drawable/elipse"
+            android:layout_marginRight="20dp"
+            >
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                android:src="@drawable/apple"
+                />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:background="@drawable/elipse"
+            >
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                android:src="@drawable/google"
+                />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_marginLeft="20dp"
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:background="@drawable/elipse"
+            >
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="91dp"
+                android:layout_height="91dp"
+                android:src="@drawable/facebook"
+                />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

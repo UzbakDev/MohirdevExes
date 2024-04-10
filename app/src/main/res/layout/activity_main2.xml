@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"/>
+
+    <ImageView
+        android:layout_marginLeft="20dp"
+        android:layout_width="28dp"
+        android:layout_height="20dp"
+        android:backgroundTint="@color/black"
+        android:src="@drawable/back"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Create Account"
+        android:textSize="28sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Fill your information below or register\n
+           with your social account"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="#C4C4C4"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+ <com.google.android.material.textfield.TextInputLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:textColorHint="#CFCFCF"
+     android:paddingLeft="40dp"
+     android:paddingRight="40dp"
+     android:hint="Your name"
+     >
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        />
+
+ </com.google.android.material.textfield.TextInputLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#CFCFCF"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:hint="Birthday"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#CFCFCF"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:hint="Adress"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#CFCFCF"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone 1+"
+            android:textStyle="bold"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:layout_width="327dp"
+        android:layout_height="60dp"
+        android:text="Next"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:backgroundTint="#41C485"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="or sign with in"
+            android:background="@color/white"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textStyle="bold"
+            android:textColor="#C4C4C4"
+            />
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+
+    <LinearLayout
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <FrameLayout
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:background="@drawable/elipse"
+            android:layout_marginRight="20dp"
+            >
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                android:src="@drawable/apple"
+                />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:background="@drawable/elipse"
+            >
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                android:src="@drawable/google"
+                />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_marginLeft="20dp"
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:background="@drawable/elipse"
+            >
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="91dp"
+                android:layout_height="91dp"
+                android:src="@drawable/facebook"
+                />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
